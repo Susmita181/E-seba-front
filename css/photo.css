@@ -1,0 +1,88 @@
+body {
+    background-image: url('bgimg/22222.png');
+background-size: 1288px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     background-position-x: center;
+background-position-y: -117px;
+    
+}
+
+.page-title {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #0a6402;
+    text-align: center;
+    position: relative;
+    top: 120px;
+  
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #77ff6042;
+    border: 2px solid #118919;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    width: 189px;
+    margin: 179px 0px 0px 0px;
+
+}
+
+.card img {
+       width: 51px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #0d410d;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 0px 0px 33px 0px;
+}
+
+.add-btn {
+    background-color: #187700;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+
+.submit-btn {
+    display: block;
+    margin: 64px 0px 0px 630px;
+    background-color: #187700;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+
+
+.submitted-message {
+    font-size: 14px;
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+}
